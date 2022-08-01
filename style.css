@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.stay-focus{
+    display: flex;
+    margin: 0 50px;
+    margin-bottom: 30px;
+}
+.stay-focus img{
+    height: 400px;
+    width: 300px;
+}
+.focus-h1{
+    font-size: 1.8em;
+    font-family: 'Uchen', serif;
+    border-left: 3px solid;
+    border-image: linear-gradient(#FF5959, rgb(223, 131, 131));
+    border-image-slice: 1;
+    padding-left: 5px;
+}
+.stay-focus-h1{
+    color: #FFAD5A;
+}
+.button-decoration{
+    background-color: #ff5959;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.my-mission-container{
+    display: flex;
+    margin-left: 50px;
+    
+}
+.my-mission-infos{
+    width: 360px;
+    height: 376px;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.my-mission-container img{
+    width: 141px;
+    height: 141px;
+}
+#my-mission-h1{
+    text-align: center;
+}
+#my-mission-2022{
+    color: #FFAD5A;
+}
+#my-mission-info-1{
+    background-color: #dbfaff;
+}
+#my-mission-info-2{
+    background-color: #ffdddd;
+}
+#my-mission-info-3{
+    background-color: #FFF4D6;
+}
+.develop-section{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.develop-section img{
+    height: 400px;
+    width: 400px;
+}
+.develop-section div{
+    margin: 50px;
+}
+.community{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.community div{
+    margin: 50px;
+}
+.footer{
+    height: 177px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Uchen', serif;
+}
